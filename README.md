@@ -1,0 +1,1 @@
+Welcome to my blog, [Goinon.org](http://goinon.org)
