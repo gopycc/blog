@@ -80,4 +80,4 @@ deploy:
   type: git
   repo: https://github.com/llangs/llangs.github.io.git
   branch: master
-  message: hexo deploy
+  message: 
