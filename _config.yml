@@ -79,5 +79,5 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/llangs/llangs.github.io.git
-  branch: gh-pages
+  branch: master
   message: hexo deploy
