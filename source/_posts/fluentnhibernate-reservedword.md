@@ -20,6 +20,8 @@ NHibernate+FluentNHibernate+MySql 运行时黄页显示下边的异常，项目�
 [FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.]
 ```
 
+<!--more-->
+
 百度到下边的类似问题：
 
 error1.  **Could not create the driver from NHibernate.Driver.MySqlDataDriver**

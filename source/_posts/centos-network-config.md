@@ -9,6 +9,7 @@ tags: [centos,network]
 ```
 # vi /etc/sysconfig/network-scripts/ifcfg-eth0
 ```
+
 静态网络配置
 ```
 BOOTPROTO=static
@@ -20,20 +21,24 @@ DNS1=192.168.0.1
 BROADCAST=192.168.0.255
 DEVICE=eth0
 ```
+
 然后ESC退出编辑模式
 
 保存退出
 ```
 :wq!
 ```
+
 或放弃修改
 ```
 :q!
 ```
+
 重启网络服务
 ```
 service network restart
 ```
+
 查看IP地址
 ```
 ip addr

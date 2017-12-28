@@ -6,6 +6,7 @@ tags: [git]
 ---
 
 ### GIT分支管理模型
+
 link: [git-branching-model](http://nvie.com/posts/a-successful-git-branching-model/)
 
 ### 主分支（Main branches）
@@ -24,9 +25,9 @@ link: [git-branching-model](http://nvie.com/posts/a-successful-git-branching-mod
 
 每一类分支都有一个特定目的，如何命名每一类分支？建议用相关的主题关键字进行命名，并且建议将分支名称分置于不同**命名空间（前缀）**下，例如：
 |分支|来源分支|合并分支|锁定|说明|
-|----|------|-------|---|---|
+|:----:|------:|-------|---|---|
 |`feature-*`|`develop`|`develop`| NO |特性分支，为了开发某种特定功能而建。|
-|`release-*`|`develop`|`develop`,`master`| YES |预发布分支，为了新版本的发布做准备，一般命名为`release-<版本号>`。
-|`hotfix-*`|`master`|`develop`,`master`| NO |补丁分支，为了修复生产缺陷而建，一般命名为 `hotfix-<issue 编号>`
+|`release-*`|`develop`|`develop`,`master`| YES |预发布分支，为了新版本的发布做准备，一般命名为`release-<版本号>`。|
+|`hotfix-*`|`master`|`develop`,`master`| NO |补丁分支，为了修复生产缺陷而建，一般命名为 `hotfix-<issue 编号>`|
 
 与主分支不同，这些辅助性分支总是有一个有限的生命期，因为他们在被合并到主分支之后，就会被移除掉。

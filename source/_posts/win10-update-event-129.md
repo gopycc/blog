@@ -14,7 +14,7 @@ tags: [windows]
 来源：storahci，
 常规：发出了对设备 \Device\RaidPort0 的重置。
 
-故障原因大致是由于WIN10自带的IDE ATA/ATAPI控制器版本太旧，导致存储控制器不兼容，无法识别硬盘，
+故障原因大致是由于WIN10自带的IDE ATA/ATAPI控制器版本太旧，导致存储控制器不兼容，无法识别硬盘。
 
 解决办法：安装intel最新的英特尔®快速存储技术 (英特尔® RST) RAID 驱动程序。已安装确认可行。
 
