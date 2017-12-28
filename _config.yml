@@ -75,7 +75,7 @@ pagination_dir: page
 search:
   path: search.xml
   field: post
-  
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
@@ -88,3 +88,7 @@ deploy:
   repo: https://github.com/llangs/llangs.github.io.git
   branch: master
   message: 
+
+plugins:
+  hexo-generator-cname
+  
