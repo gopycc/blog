@@ -1,3 +1,18 @@
 language: node_js
-before_script: hexo g
-script: hexo d
+
+sudo: false
+
+node_js:
+  - "node"
+
+cache:
+  directories:
+    - node_modules
+
+script:
+  - npm run build
+
+deploy:
+  provider: script
+  script: npm run deploy
+  skip_cleanup: true
