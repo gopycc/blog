@@ -1,27 +1,17 @@
 ---
-title: Git Cheat Sheet
-date: 2018-01-15 13:00:00
+title: Git cheat sheet 让你不用再去记所有的git命令
+date: 2018-04-15 23:30:00
 categories: git
-tags: [git]
+tags: [git,git-flow]
 ---
 
-# [Git Cheat Sheet](https://github.com/sindresorhus/awesome)
+在 [分享一点Git的感受与总结](http://goinon.org/2018/git-talk/)讲到了vscode中使用git命令行的便利，同时有人在github上分享了一份git的命令手册，转过来备查，愿你也能了然于心。
 
------------------
+github: https://github.com/arslanbilal/git-cheat-sheet
 
-### Other Available Languages:
-1. [Arabic Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-ar.md)
-2. [English Git Cheat Sheet](https://github.com/arslanbilal/Git-Cheat-Sheet/blob/master/other-sheets/git-cheat-sheet-en.md)
-3. [Hindi Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-hi.md)
-4. [Turkish Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-tr.md)
-5. [Spanish Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-es.md)
-
-Git cheat sheet 让你不用再去记所有的git命令。
+下面开始Git Cheat Sheet的内容
 
 ---------------------
-
-# Git Cheat Sheet 中文版
-=====================
 
 ### 索引
 * [配置](#配置)
@@ -37,6 +27,8 @@ Git cheat sheet 让你不用再去记所有的git命令。
 * [Git Flow](#git-flow)
 
 ---
+
+<!--more-->
 
 ### 配置
 
